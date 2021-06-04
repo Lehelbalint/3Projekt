@@ -169,6 +169,33 @@ binarisfa.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\3Projekt.dir\build.make CMakeFiles/3Projekt.dir/binarisfa.c.s
 .PHONY : binarisfa.c.s
 
+kupac.obj: kupac.c.obj
+
+.PHONY : kupac.obj
+
+# target to build an object file
+kupac.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3Projekt.dir\build.make CMakeFiles/3Projekt.dir/kupac.c.obj
+.PHONY : kupac.c.obj
+
+kupac.i: kupac.c.i
+
+.PHONY : kupac.i
+
+# target to preprocess a source file
+kupac.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3Projekt.dir\build.make CMakeFiles/3Projekt.dir/kupac.c.i
+.PHONY : kupac.c.i
+
+kupac.s: kupac.c.s
+
+.PHONY : kupac.s
+
+# target to generate assembly for a file
+kupac.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3Projekt.dir\build.make CMakeFiles/3Projekt.dir/kupac.c.s
+.PHONY : kupac.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -208,6 +235,9 @@ help:
 	@echo ... binarisfa.obj
 	@echo ... binarisfa.i
 	@echo ... binarisfa.s
+	@echo ... kupac.obj
+	@echo ... kupac.i
+	@echo ... kupac.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

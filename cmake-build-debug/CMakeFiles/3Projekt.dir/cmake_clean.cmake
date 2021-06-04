@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "3Projekt.exe.manifest"
   "3Projekt.pdb"
   "CMakeFiles/3Projekt.dir/binarisfa.c.obj"
+  "CMakeFiles/3Projekt.dir/kupac.c.obj"
   "CMakeFiles/3Projekt.dir/main.c.obj"
   "lib3Projekt.dll.a"
 )

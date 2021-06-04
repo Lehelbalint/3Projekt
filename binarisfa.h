@@ -20,6 +20,4 @@ bool search(Node *root,const char * info);
 Node * cimkereso(Node *root,const char * info);
 Node* deleteNode( Node* root, const char * key);
 Node * minValueNode(Node * node);
-void preorder(Node *fa);
-void postorder(Node *fa);
 #endif //INC_3PROJEKT_BINARISFA_H

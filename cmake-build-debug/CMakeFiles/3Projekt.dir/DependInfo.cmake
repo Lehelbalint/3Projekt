@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "D:/2.felev/Adatsz1lab/3Projekt/binarisfa.c" "D:/2.felev/Adatsz1lab/3Projekt/cmake-build-debug/CMakeFiles/3Projekt.dir/binarisfa.c.obj"
+  "D:/2.felev/Adatsz1lab/3Projekt/kupac.c" "D:/2.felev/Adatsz1lab/3Projekt/cmake-build-debug/CMakeFiles/3Projekt.dir/kupac.c.obj"
   "D:/2.felev/Adatsz1lab/3Projekt/main.c" "D:/2.felev/Adatsz1lab/3Projekt/cmake-build-debug/CMakeFiles/3Projekt.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

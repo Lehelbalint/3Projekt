@@ -107,19 +107,3 @@ void inorder(Node *root)
     if(root->right)
         inorder(root->right);
 }
-void preorder(Node *fa)
-{
-    printf("%3d ", fa->info);
-    if(fa->left)
-        preorder(fa->left);
-    if(fa->right)
-        preorder(fa->right);
-}
-void postorder(Node *fa)
-{
-    if(fa->left)
-        postorder(fa->left);
-    if(fa->right)
-        postorder(fa->right);
-    printf("%3d ", fa->info);
-}

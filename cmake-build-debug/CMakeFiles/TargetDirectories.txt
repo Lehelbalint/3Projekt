@@ -1,0 +1,3 @@
+D:/2.felev/Adatsz1lab/3Projekt/cmake-build-debug/CMakeFiles/3Projekt.dir
+D:/2.felev/Adatsz1lab/3Projekt/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/2.felev/Adatsz1lab/3Projekt/cmake-build-debug/CMakeFiles/rebuild_cache.dir

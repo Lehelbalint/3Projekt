@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\3Projekt.dir/objects.a
+C:\PROGRA~1\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\3Projekt.dir/objects.a @CMakeFiles\3Projekt.dir\objects1.rsp
+C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\3Projekt.dir/objects.a -Wl,--no-whole-archive  -o 3Projekt.exe -Wl,--out-implib,lib3Projekt.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\3Projekt.dir\linklibs.rsp

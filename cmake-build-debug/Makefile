@@ -142,6 +142,33 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\3Projekt.dir\build.make CMakeFiles/3Projekt.dir/build
 .PHONY : 3Projekt/fast
 
+binarisfa.obj: binarisfa.c.obj
+
+.PHONY : binarisfa.obj
+
+# target to build an object file
+binarisfa.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3Projekt.dir\build.make CMakeFiles/3Projekt.dir/binarisfa.c.obj
+.PHONY : binarisfa.c.obj
+
+binarisfa.i: binarisfa.c.i
+
+.PHONY : binarisfa.i
+
+# target to preprocess a source file
+binarisfa.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3Projekt.dir\build.make CMakeFiles/3Projekt.dir/binarisfa.c.i
+.PHONY : binarisfa.c.i
+
+binarisfa.s: binarisfa.c.s
+
+.PHONY : binarisfa.s
+
+# target to generate assembly for a file
+binarisfa.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3Projekt.dir\build.make CMakeFiles/3Projekt.dir/binarisfa.c.s
+.PHONY : binarisfa.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -178,6 +205,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... 3Projekt
+	@echo ... binarisfa.obj
+	@echo ... binarisfa.i
+	@echo ... binarisfa.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

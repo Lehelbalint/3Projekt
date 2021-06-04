@@ -74,6 +74,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/2.felev/Adatsz1lab/3Projekt/binarisfa.c">
+			<Option target="3Projekt"/>
+		</Unit>
+		<Unit filename="D:/2.felev/Adatsz1lab/3Projekt/binarisfa.h">
+			<Option target="3Projekt"/>
+		</Unit>
 		<Unit filename="D:/2.felev/Adatsz1lab/3Projekt/main.c">
 			<Option target="3Projekt"/>
 		</Unit>

@@ -40,21 +40,28 @@ void sullyeszt(heap** h, int i) {
         i = j;
     }
 }
-const char * torolmax(heap **h) {
+void  torolmax(heap **h) {
     char seged[20];
     strcpy( seged , (*h)->data[1]);
     strcpy((*h)->data[1] , (*h)->data[(*h)->size]);
     strcpy((*h)->data[(*h)->size] , seged);
     (*h)->size--;
     sullyeszt(&(*h),1);
-    printf("%s ",seged);
-    return seged;
 }
 void printHeap(heap *h1)
 {
     for(int i=1;i<=h1->size;++i)
         printf("%s ",h1->data[i]);
     printf("\n");
+}
+bool searchHeap(heap *h1,const char * info)
+{
+    for(int i=1;i<=h1->size;++i)
+        if(strcmp(info,h1->data[i])==0)
+        {
+            return true;
+        }
+    return false;
 }
 void kupacrendez(heap *h, int N) {
     for (int i = N / 2; i >= 1; i--)

@@ -71,3 +71,51 @@ double DeleteResultBT(Node *node,const char * info)
     }
     return avgResult/(counter-1);
 }
+double readAndGiveResultHeap(heap ** heap1,const char * filename)
+{
+    double avgresult=0;
+    FILE *fin=fopen(filename,"r");
+    if(fin==NULL)
+    {
+        printf("Nem sikerult megnyitni a filet");
+    }
+    char info[30];
+    int numofwords=0;
+    while(fscanf(fin,"%s", info)==1)
+    {
+        numofwords++;
+        StartCounter();
+        insertheap(&(*heap1),info);
+        avgresult+=GetCounter();
+    }
+    fclose(fin);
+    return avgresult/numofwords;
+}
+double SearchResultHeap(heap * heap1,const char * info)
+{
+    int counter=11;
+    double avgResult=0,currentResult;
+    for(int i = 0; i < counter; ++i) {
+        StartCounter();
+        searchHeap(heap1,info);
+        currentResult= GetCounter();
+        if(i > 0) {
+            avgResult += currentResult;
+        }
+    }
+    return avgResult/(counter-1);
+}
+double DeleteResultHeap(heap * heap1)
+{
+    int counter=9;
+    double avgResult=0,currentResult;
+    for(int i = 0; i < counter; ++i) {
+        StartCounter();
+        torolmax(&heap1);
+        currentResult= GetCounter();
+        if(i > 0) {
+            avgResult += currentResult;
+        }
+    }
+    return avgResult/(counter-1);
+}

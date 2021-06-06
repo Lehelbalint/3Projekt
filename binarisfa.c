@@ -48,7 +48,6 @@ bool search(Node *root,const char *info)
         search(root->right,info);
     }
     else {
-        printf("Talalt\n");
         return true;
     }
 }

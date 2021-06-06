@@ -80,6 +80,12 @@
 		<Unit filename="D:/2.felev/Adatsz1lab/3Projekt/binarisfa.h">
 			<Option target="3Projekt"/>
 		</Unit>
+		<Unit filename="D:/2.felev/Adatsz1lab/3Projekt/functions.c">
+			<Option target="3Projekt"/>
+		</Unit>
+		<Unit filename="D:/2.felev/Adatsz1lab/3Projekt/functions.h">
+			<Option target="3Projekt"/>
+		</Unit>
 		<Unit filename="D:/2.felev/Adatsz1lab/3Projekt/kupac.c">
 			<Option target="3Projekt"/>
 		</Unit>
